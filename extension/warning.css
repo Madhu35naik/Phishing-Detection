@@ -1,0 +1,30 @@
+#ps-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    z-index: 999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ps-box {
+    background: #222;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+.ps-box button {
+    margin: 6px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#ps-back { background: red; color: white; }
+#ps-continue { background: green; color: white; }
+#ps-allow { background: dodgerblue; color: white; }
